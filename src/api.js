@@ -1,7 +1,7 @@
 // src/api.js
 import axios from 'axios';
 
-const API_URL = 'https://localhost:7146/api/cats'; // Adjust the URL as needed
+const API_URL = 'https://localhost:7146/api/Cats';
 
 export const getCats = async () => {
     try {
@@ -23,4 +23,4 @@ export const addCat = async (cat) => {
     }
 };
 
-// Add other functions for update and delete as needed
+
